@@ -1,6 +1,7 @@
 # Manipulacao-de-arquivos
-## 👨🏽‍💻💻Um pouco sobre manipulação de arquivos em C#👨🏽‍💻💻
+### 👨🏽‍💻💻Um pouco sobre manipulação de arquivos em C#👨🏽‍💻💻
 
+### 📂Introdução 📖
 Olá novamente, hoje vou falar um pouco sobre manipulação de arquivos em C#. Primeiramente é necessário entender que existem dois tipos de arquivos que são:
 
 <ul>
