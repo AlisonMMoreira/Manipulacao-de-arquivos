@@ -15,7 +15,8 @@ Outra forma de identificar se um arquivo é de texto ou binário é o abrindo em
 
 Para que você consiga fazer a manipulação de arrquivos, é necessário o uso do `System.IO`, com ele é possível acessar métodos estáticos para a criação, cópia, exclusão, deslocamento e abertura de um arquivo, além de ajudar na criação de objetos FileStream.
 
-### Criando e gravando dados e valores em um arquivo de texto
+### Escrita de arquivos de texto
+Para escrever arquivos de texto é necessário criar uma variável do tipo `StreamWriter`, definir um nome que será utilizado pelo StreamWriter e após isso você precisa criar um novo StreamWriter e passar um parametro que será o nome do arquivo junto com sua extensão. Um ponto a ser destacado sobre um arquivo, é que ele não é definido pela exttensão e sim pela forma do conteúdo que ele possui.
 
 ### Lendo um arquivo de texto
 
