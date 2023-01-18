@@ -2,7 +2,7 @@
 ### 👨🏽‍💻💻Um pouco sobre manipulação de arquivos em C#👨🏽‍💻💻
 
 ### 📂Introdução 📖
-Olá novamente, hoje vou falar um pouco sobre manipulação de arquivos em C#. Primeiramente é necessário entender que existem dois tipos de arquivos que são:
+Olá novamente, hoje vou falar um pouco sobre manipulação de arquivos em C#. Primeiramente é necessário entender que o conceito de manipulação de arquivos é muito importante na programação, e que existem dois tipos de arquivos que são:
 
 <ul>
   <li>Arquivo Texto: São os arquivos que conseguimos ler, arquivos que é possível entender o que está escrito, como por exemplo, arquivos .txt, .html, .docx, entre outros.</li>
