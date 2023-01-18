@@ -19,5 +19,3 @@ Para que você consiga fazer a manipulação de arrquivos, é necessário o uso 
 
 ### Lendo um arquivo de texto
 
-<!--Para adicionar a capacidade de gravar em um arquivo por meio do aplicativo, use a classe `StreamWriter`. StreamWriter foi criado para a saída de caracteres em uma determinada codificação, enquanto a classe `Stream` foi criada para entrada e saída em bytes. Use StreamWriter para gravar linhas de informações em um arquivo de texto padrão. 
--->
