@@ -24,7 +24,13 @@ Para escrever arquivos de texto é necessário criar uma variável do tipo `Stre
 >• Aba direita>bin>debug>arquivo o arquivo criado.
 
 ### Adicionando outros valores sem apagar os valores que já estão inseridos no arquivo
-Para que os valores que 
+Para que os valores que já foram inseridos não sejam apagados quando o código for executado, é usado o fluxo `.AppendText()`. Que é inserido no lugar do new StreamWriter. Ficando da seguinte forma.
+
+• Criando um arquivo novo:<br>
+<code>string StreamWriter escritor = new StreamWriter("teste.txt");</code>
+
+• Modificando um arquivo existente:<br>
+<code>StreamWriter escritor = File.AppendText("teste.txt");</code>
 
 ### Lendo um arquivo de texto
 
