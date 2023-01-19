@@ -23,5 +23,8 @@ Para escrever arquivos de texto é necessário criar uma variável do tipo `Stre
 
 >• Aba direita>bin>debug>arquivo o arquivo criado.
 
+### Adicionando outros valores sem apagar os valores que já estão inseridos no arquivo
+Para que os valores que 
+
 ### Lendo um arquivo de texto
 
