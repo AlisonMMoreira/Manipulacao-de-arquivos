@@ -18,5 +18,10 @@ Para que você consiga fazer a manipulação de arrquivos, é necessário o uso 
 ### Escrita de arquivos de texto
 Para escrever arquivos de texto é necessário criar uma variável do tipo `StreamWriter`, definir um nome que será utilizado pelo StreamWriter e após isso você precisa criar um novo StreamWriter e passar um parametro que será o nome do arquivo junto com sua extensão. Um ponto a ser destacado sobre um arquivo, é que ele não é definido pela exttensão e sim pela forma do conteúdo que ele possui.
 
+### Procurando o arquivo: 
+>• Aba direita>nome do projeto>Abrir Pasta no Explorador de Arquivos>bin>debug>abrir o arquivo criado.
+
+>• Aba direita>bin>debug>arquivo o arquivo criado.
+
 ### Lendo um arquivo de texto
 
