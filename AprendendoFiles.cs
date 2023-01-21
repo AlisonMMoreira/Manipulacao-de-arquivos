@@ -75,3 +75,23 @@ namespace AprendendoFiles
 	}
 	leitor.Close();
 }
+
+// Lendo um arquivo com ReadToEnd
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
+namespace AprendendoFiles
+{
+	
+	class Program
+	{
+	static void Main(string[] args)
+		{
+			StreamReader leitor = new StreamReader("teste.txt");
+			string conteudo = leitor.ReadToEnd();
+		}
+	}
+}
