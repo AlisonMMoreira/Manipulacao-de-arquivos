@@ -38,3 +38,4 @@ Para que a leitura de arquivos seja possível, é necessário o uso do `StreamRe
 
 Uma forma utilizada para a leitura de linha por linha pe usando estrututa de repetição. Além de ser possível colocar essas linhas em uma lista que será acessada.
 
+E a outra forma de exibir o valor da lista é usando a função `ReadToEnd` que surge depois da criação de uma variável junto com seu tipo.
