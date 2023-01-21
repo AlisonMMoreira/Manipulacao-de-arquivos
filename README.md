@@ -34,5 +34,5 @@ Para que os valores que já foram inseridos não sejam apagados quando o código
 
 ### Leitura de arquivos de texto
 
-
+Para que a leitura de arquivos seja possível, é necessário o uso do `StreamReader`, e criar um novo StreamReader e inserir o nome do arquivo que você queira ler.
 
