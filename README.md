@@ -36,3 +36,5 @@ Para que os valores que já foram inseridos não sejam apagados quando o código
 
 Para que a leitura de arquivos seja possível, é necessário o uso do `StreamReader`, e criar um novo StreamReader e inserir o nome do arquivo que você queira ler.
 
+Uma forma utilizada para a leitura de linha por linha pe usando estrututa de repetição.
+
