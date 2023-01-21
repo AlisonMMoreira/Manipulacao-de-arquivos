@@ -32,5 +32,7 @@ Para que os valores que já foram inseridos não sejam apagados quando o código
 • Modificando um arquivo existente:<br>
 <code>StreamWriter escritor = File.AppendText("teste.txt");</code>
 
-### Lendo um arquivo de texto
+### Leitura de arquivos de texto
+
+
 
