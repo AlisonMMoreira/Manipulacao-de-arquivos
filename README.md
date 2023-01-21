@@ -41,3 +41,5 @@ Uma forma utilizada para a leitura de linha por linha pe usando estrututa de rep
 E a outra forma de exibir o valor da lista é usando a função `ReadToEnd` que surge depois da criação de uma variável junto com seu tipo. Ou seja.
 
 <code>StreamReader leitor = new StreamReader("teste.txt");</code>
+
+<code>string conteudo = leitor.ReadToEnd();</code>
