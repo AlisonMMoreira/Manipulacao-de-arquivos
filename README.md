@@ -43,3 +43,5 @@ E a outra forma de exibir o valor da lista é usando a função `ReadToEnd` que 
 <code>StreamReader leitor = new StreamReader("teste.txt");</code>
 
 <code>string conteudo = leitor.ReadToEnd();</code>
+
+# Criando arquivo binário
