@@ -11,11 +11,16 @@ Olá novamente, hoje vou falar um pouco sobre manipulação de arquivos em C#. P
 
 Outra forma de identificar se um arquivo é de texto ou binário é o abrindo em um bloco de notas, no qual se aparecer símbolos que não fazem sentido nenhum e não for totalmente legíveis sabemos que é um arquivo binário, já se o arquivo estiver legível por inteiro sabemos que este é um arquivo texto.
 
+### Qual é a diferença entre arquivos de texto e binário?
+
+Na pratica a grande diferença entre arquivos de texto e arquivos binário é a seguinte, quando alguém escreve em um arquivo de texto, todos os valores são convertidos em strings e armazenados no arquivo de texto. Já os arquivos binários funcionam da seguinte maneira, ao invés de converter os valores e tipos em strings e depois disso salvar as strings no arquivo, o que ocorre é que todos os tipos e valores, são salvos da forma que são, ou seja, um array vai ser salvo como um array, um valor booleano será salvo como booleano e assim por diante.
+
+
 ### Requisitos para a manipulação de arquivos
 
 Para que você consiga fazer a manipulação de arrquivos, é necessário o uso do `System.IO`, com ele é possível acessar métodos estáticos para a criação, cópia, exclusão, deslocamento e abertura de um arquivo, além de ajudar na criação de objetos FileStream.
 
-### Escrita de arquivos de texto
+# 📝 Escrita de arquivos de texto 📝
 Para escrever arquivos de texto é necessário criar uma variável do tipo `StreamWriter`, definir um nome que será utilizado pelo StreamWriter e após isso você precisa criar um novo StreamWriter e passar um parametro que será o nome do arquivo junto com sua extensão. Um ponto a ser destacado sobre um arquivo, é que ele não é definido pela exttensão e sim pela forma do conteúdo que ele possui.
 
 ### Procurando o arquivo: 
@@ -44,4 +49,4 @@ E a outra forma de exibir o valor da lista é usando a função `ReadToEnd` que 
 
 <code>string conteudo = leitor.ReadToEnd();</code>
 
-# Criando arquivo binário
+# 📝 Manipulação de arquivo binários 📝
