@@ -50,3 +50,4 @@ E a outra forma de exibir o valor da lista é usando a função `ReadToEnd` que 
 <code>string conteudo = leitor.ReadToEnd();</code>
 
 # 📝 Manipulação de arquivo binários 📝
+Para escrever em arquivos binários é necessário usar o `FileStream`, que serve para duas funções que são, escrita e leitura de arquivos, após isso ele segue o mesmo modelo `StreamWriter`.
