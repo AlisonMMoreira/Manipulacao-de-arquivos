@@ -95,3 +95,24 @@ namespace AprendendoFiles
 		}
 	}
 }
+
+
+// Criando e escrevendo em um arquivo binário
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
+namespace AprendendoFiles
+{
+	
+	class Program
+	{
+	static void Main(string[] args)
+		{
+			FileStream stream = new FileStream("teste.txt", FileMode.OpenOrCreate);
+			BinaryFormatter encoder = new BinaryFormatter();
+		}
+	}
+}
