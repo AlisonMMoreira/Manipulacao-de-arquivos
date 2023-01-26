@@ -51,3 +51,7 @@ E a outra forma de exibir o valor da lista é usando a função `ReadToEnd` que 
 
 # 📝 Manipulação de arquivo binários 📝
 Para escrever em arquivos binários é necessário usar o `FileStream`, que serve para duas funções que são, escrita e leitura de arquivos, após isso ele segue o mesmo modelo `StreamWriter`.
+
+<code>FileStream stream = new FileStream("teste.txt", FileMode.OpenOrCreate);</code>
+
+Veja que agora adicionamos um parametro a mais ele serve para que, o arquivo seja criado caso não exista, e aberto se já existir. Após realizada a criação do arquivo é necessário usar o serealizador para que possamos escrever de forma binária no arquivo, o serealizador ira converter qualquer formato de dado, qualquer tipo para uma cadeia de byte, byte são vários bits(especificamente 8 bits) juntos que se tornam 1 byte, ou seja, para trabalhar com arquivos binários é necessário converter os dados em bytes.
