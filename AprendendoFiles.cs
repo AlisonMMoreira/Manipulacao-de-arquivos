@@ -113,6 +113,12 @@ namespace AprendendoFiles
 		{
 			FileStream stream = new FileStream("teste.txt", FileMode.OpenOrCreate);
 			BinaryFormatter encoder = new BinaryFormatter();
+		
+			encoder.Serialize(stream, 120);
+			encoder.Serialize(stream, "Alison Moreira");
+			encoder.Serialize(stream, true);
+		
+			stream.Close();
 		}
 	}
 }
