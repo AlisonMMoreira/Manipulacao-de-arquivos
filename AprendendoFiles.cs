@@ -122,3 +122,36 @@ namespace AprendendoFiles
 		}
 	}
 }
+
+// Escrevendo uma lista em um arquivo binário
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
+namespace AprendendoFiles
+{
+	
+	class Program
+	{
+	static void Main(string[] args)
+		{
+			List<string> clientes = new List<string>();
+            		clientes.Add("Yuri");
+            		clientes.Add("André");
+            		clientes.Add("Marcelo");
+            		clientes.Add("Mateus");
+            		string fornecedor = "Guilherme Prata";
+            		clientes.Add(fornecedor);
+		
+			FileStream stream = new FileStream("teste.txt", FileMode.OpenOrCreate);
+			BinaryFormatter encoder = new BinaryFormatter();
+		
+			encoder.Serialize(stream, clientes);
+		
+			stream.Close();
+		}
+	}
+}
+
