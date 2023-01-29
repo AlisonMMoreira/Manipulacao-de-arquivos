@@ -155,3 +155,27 @@ namespace AprendendoFiles
 	}
 }
 
+// Leitura de um arquivo binário
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+
+namespace AprendendoFiles
+{
+	
+	class Program
+	{
+	static void Main(string[] args)
+		{	
+			List<string> listaDoArquivo = (List<string>)enconder.Deserialize (stream);
+			Produto prod = (Produto)enconder.Deserialize (stream);
+		
+			Console.WriteLine(listaDoArquivo);
+			Console.WriteLine(prod.nome);
+		
+			stream.Close();
+		}
+	}
+}
